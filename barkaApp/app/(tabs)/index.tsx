@@ -28,7 +28,6 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
-              android: 'cmd + m',
               web: 'F12',
             })}
           </ThemedText>{' '}
